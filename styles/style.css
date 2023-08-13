@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F8FC;
+}
+
+.custom-navbar {
+    background-color: #414C55 !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(184, 184, 184);
+}
+
+.recommended-item {
+    background-color: white;
+    padding: 1rem;
+}
+
+.look-img {
+    overflow: hidden;
+}
+
+.look-img img {
+    transition: transform .3s ease-in-out;
+}
+
+.look-img:hover img {
+    transform: scale(1.1);
+}
